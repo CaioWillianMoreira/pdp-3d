@@ -1,0 +1,26 @@
+{
+  "name": "pdp-d3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "CHOKIDAR_USEPOLLING=true vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "three": "^0.154.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.17",
+    "@vue/cli-service": "^4.5.17",
+    "puppeteer": "^25.3.0",
+    "sass": "^1.64.0",
+    "sass-loader": "^10.4.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
